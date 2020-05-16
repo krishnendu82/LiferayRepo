@@ -1,0 +1,10 @@
+Bundle-Name: servicebuilder-api
+Bundle-SymbolicName: com.liferay.poc.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.poc.exception,\
+	com.liferay.poc.model,\
+	com.liferay.poc.service,\
+	com.liferay.poc.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../servicebuilder-service/service.xml
